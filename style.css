@@ -72,6 +72,11 @@ aside h2 {
     /* font-style:italic; */
 }
 
+#profile_img{
+    height : 200px;
+    width: 200px;
+}
+
 .subtitle {
     font-size:1.5em;
     /* padding-left:45px; */
