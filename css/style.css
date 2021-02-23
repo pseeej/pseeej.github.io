@@ -40,6 +40,11 @@ aside {
     top:100px;
  }
 
+#money{
+    position: relative;
+    top:30px;
+}
+
 #main {
     float:right;
     width:600px;
@@ -61,7 +66,7 @@ section > p, section>table {
 /* 글자스타일 */
 aside h1 {
     font-size:1.8em;
-    font-variant: small-caps;
+    font-variant:small-caps;
 }
 aside h2 {
     font-size:1.2em;

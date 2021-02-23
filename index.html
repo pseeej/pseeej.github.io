@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="ko">
 <head>
-	<title>온라인 프로필</title>
+	<title>세진</title>
 	<meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  
   <style>
     table {
       width:70%;  /* 표의 너비 */
@@ -26,8 +28,9 @@
         padding-left: 0;    /* 목록 들여쓰지 않기 */
     }
     #sns > ul > li{
-        display : inline-block; /* 항목을 가로로 배열 */
+        /* display : inline-block; 항목을 가로로 배열 */
         width:80px; /* 각 항목의 너비 */
+        list-style: none;
     }
   </style>
 </head>
@@ -37,9 +40,9 @@
         <!-- 사이드바 -->
         <aside>
             <div id="namecard">
-                <img src="profile.jpg" alt="" id="profile_img">
+                <img src="images/profile.jpg" alt="" id="profile_img">
                 <h1>Sejin Park</h1>    
-                <p>취직하고 싶다~<br>배고프다~</p>
+                <p>자기소개 칸이데<br>별로 쓸 게 없다잉</p>
             </div>
             <div id="detail">
                 <p>Seoul, Korea</p>
@@ -50,15 +53,24 @@
             <ul>
                 <li><a href="http://instagram.com/tteningram" target="_blank">instagram</a></li>
                 <li><a href="https://github.com/pseeej" target="_blank">github</a></li>
+                <li><a href="https://solved.ac/profile/pseeej" target="_blank">solved.ac</a></li>
             </ul>
-            </div>           
+            </div>
+            <div id="sns" style="padding-top: 10px;">
+                <h2>후원 받음^^</h2>
+                <ul>
+                    <p>우리 1002-846-950643 박세진</p>
+                </ul>
+            </div>
         </aside>
         <div id="main">
             <!-- 자기 소개 -->
             <section>
                 <h2 class="subtitle">Who am I?</h2>
-                <p><mark>아직까지도 꿈 찾는 중......</mark><br>오랜 기간 생활하던 봉천동을 떠나 상계동 거주 중.<br>
-                뒤늦게 전공에 관심이 생겨 부랴부랴 따라가려고 하고 있다.</p>
+                <p><mark>아직까지도 미래에 대한 확신이 없슴</mark><br>
+                    내 봉천동 돌리도,,, 상계동 살고 있슴당<br>
+                    요새 뒤처진다는 생각 하루에 598129번씩 하는 중<br>
+                    하지만... 요새 공태기가 와버림</p>
             </section>
 
             <!-- 경력 -->
@@ -74,17 +86,20 @@
                     </li>
                     <li>전공 경력 아직 업슴
                         <ul>
-                            <li>키워나갈 예정임,,,</li>
-                            <li>현재는 백엔드에 관심 가지고 있음~</li>
+                            <li>아 학과 경진대회 1등했음^^~</li>
+                            <li>학과 경진대회 상 받은 거 잘,,, 이용해서 학습동아리 상도 받음</li>
+                            <li>적정기술 경진대회 금상 받음 상금 백만원~</li>
                         </ul>                        
                     </li>
                 </ul>             
             </section>
 
-            <!-- 숙련도 -->
+            <!-- 서브 페이지 -->
             <section>
-                <h2 class="subtitle">Skills</h2>
-
+                <h2 class="subtitle">Sub Pages</h2>
+                <ul style="list-style: none;">
+                    <li><a href="sub/netflix.html">What's on Netflix?</a></li>
+                </ul>
             </section>
 
             <!-- 학력 -->
